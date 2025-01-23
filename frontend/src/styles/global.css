@@ -1,24 +1,67 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto 20px;
-  }
-  
-  input, select, button {
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
-  }  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px; 
+  width: 90%; 
+  margin: 0 auto 20px;
+}
+
+input, select, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px; 
+  width: 90%; 
+  margin: 0 auto;
+}
+
+.task-item {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.task-item .status {
+  font-weight: bold;
+}
+
+.task-item.todo {
+  border-left: 8px solid red; 
+}
+
+.task-item.doing {
+  border-left: 8px solid orange; 
+}
+
+.task-item.done {
+  border-left: 8px solid green; 
+}

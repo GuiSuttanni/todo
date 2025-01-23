@@ -8,7 +8,7 @@ const Home = () => {
   if (loading) return <p>Loading tasks...</p>;
 
   return (
-    <div>
+    <div className="container">
       <h1>Task Manager</h1>
       <TaskForm reloadTasks={reloadTasks} />
       <TaskList tasks={tasks} />
