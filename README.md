@@ -104,3 +104,7 @@ A aplicação estará disponível em **http://localhost:5173**
 - Consulte a documentação do Firebase caso tenha dúvidas sobre como configurar o Firestore.
 
 - Ainda há muito o que melhorar no código, este foi desenvolvido para fim de estudo a respeito do Node e um teste pratico.
+
+## Layout da aplicação
+
+![image](https://github.com/user-attachments/assets/3bda6cdf-1160-4f54-9d29-f9ebeb69d62f)
